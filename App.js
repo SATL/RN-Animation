@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   changePosition = position => {
-    LayoutAnimation.easeInEaseOut();
+    LayoutAnimation.spring();
     this.setState({
       position,
     });
